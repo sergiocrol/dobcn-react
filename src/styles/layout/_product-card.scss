@@ -1,0 +1,25 @@
+.product-card {
+  width: 30rem;
+  text-align: center;
+  border: 1px solid $color-grey-light;
+  margin: 10px 10px;
+  box-shadow: 0px 3px 5px -1px rgba(150,150,150,.5);
+
+  &:hover{
+    box-shadow: 0px 3px 5px 0px rgba(150, 150, 150, 0.685);
+  }
+
+  &-name {
+    h2, p {
+      color: $color-primary-darkblue;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  &-specs {
+    margin-top: 5px;
+  }
+}

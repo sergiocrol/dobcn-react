@@ -1,3 +1,9 @@
-import React from "react"
+import React from 'react';
 
-export default () => <div>Hello world!</div>
+export default function NotFound() {
+  if (typeof window !== 'undefined') {
+    window.location = '/home';
+  }
+
+  return null;
+}

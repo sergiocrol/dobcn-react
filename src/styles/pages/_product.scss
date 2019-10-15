@@ -1,0 +1,92 @@
+.product-main {
+  width: 100%;
+  background-color: $color-grey-light;
+
+  &-container {
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: center; 
+    padding: 5rem 3rem; 
+  }
+
+  &-header {
+    width: 100;
+    text-align: center;
+
+    @media screen and (min-width: 768px){
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .spec-box {
+      margin: 0 2rem;
+      min-width: 25rem;
+    }
+
+    .description-box {
+      max-width: 50rem;
+      padding-top: 2rem;
+
+      @media screen and (min-width: 768px){
+        padding-top: 0;
+      }
+    }
+
+    .features-box {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+
+      div {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      img {
+        max-width: 3.3rem;
+      }
+    }
+  }
+}
+
+.collapsible-body {
+  margin-top: 2rem;
+  border-top: 3px solid #e2dfdfc4;
+  margin-bottom: 3rem;
+  
+  .section {
+    overflow:hidden;
+    transition:height 0.3s ease-out;
+    height:0;
+    border-bottom: 3px solid #e2dfdfbb;
+  }
+}
+
+  .table-wrapper {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+
+    table {
+      width: 90%;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: $color-redensificar;
+      color: white;
+   }
+
+   tbody tr:nth-child(even) {
+    background-color: $color-redensificar-two;
+    color: rgb(102, 101, 101);
+ }
+
+    @media screen and (min-width: 768px){
+      font-size: 1.8rem;
+    }
+  }

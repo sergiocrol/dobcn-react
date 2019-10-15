@@ -1,0 +1,109 @@
+.recuperar {
+  background-color: $color-recuperar;
+}
+
+.digestcare {
+  background-color: $color-digestcare;
+}
+
+.mantener {
+  background-color: $color-mantener;
+}
+
+.redensificar {
+  background-color: $color-redensificar;
+}
+
+.sleepcare {
+  background-color: $color-sleepcare;
+}
+
+.vitalcare {
+  background-color: $color-vitalcare;
+}
+
+.immuncare {
+  background-color: $color-immuncare;
+}
+
+.vigorcare {
+  background-color: $color-vigorcare;
+}
+
+.active {
+  color: $color-active;
+  font-weight: bolder;
+}
+
+#digestcare {
+  background-color: $color-digestcare;
+  border-bottom: 1.5rem solid $color-digestcare-dark;
+
+}
+
+#recuperar {
+  background-color: $color-recuperar;
+  border-bottom: 1.5rem solid $color-recuperar-dark;
+}
+
+#mantener {
+  background-color: $color-mantener;
+  border-bottom: 1.5rem solid $color-mantener-dark;
+}
+
+#redensificar {
+  background-color: $color-redensificar;
+  border-bottom: 1.5rem solid $color-redensificar-dark;
+}
+
+#sleepcare {
+  background-color: $color-sleepcare;
+  border-bottom: 1.5rem solid $color-sleepcare-dark;
+}
+
+#vitalcare {
+  background-color: $color-vitalcare;
+  border-bottom: 1.5rem solid $color-vitalcare-dark;
+}
+
+#immuncare {
+  background-color: $color-immuncare;
+  border-bottom: 1.5rem solid $color-immuncare-dark;
+}
+
+#vigorcare {
+  background-color: $color-vigorcare;
+  border-bottom: 1.5rem solid $color-vigorcare-dark;
+}
+
+#triangle-digestcare {
+  border-color: $color-digestcare-dark transparent transparent transparent;
+}
+
+#triangle-recuperar {
+  border-color: $color-recuperar-dark transparent transparent transparent;
+}
+
+#triangle-mantener {
+  border-color: $color-mantener-dark transparent transparent transparent;
+}
+
+#triangle-redensificar {
+  border-color: $color-redensificar-dark transparent transparent transparent;
+}
+
+#triangle-sleepcare {
+  border-color: $color-sleepcare-dark transparent transparent transparent;
+}
+
+#triangle-vitalcare {
+  border-color: $color-vitalcare-dark transparent transparent transparent;
+}
+
+#triangle-immuncare {
+  border-color: $color-immuncare-dark transparent transparent transparent;
+}
+
+#triangle-vigorcare {
+  border-color: $color-vigorcare-dark transparent transparent transparent;
+}
