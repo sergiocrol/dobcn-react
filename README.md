@@ -1,6 +1,3 @@
-# Frontend Assessment
-![frontend](https://res.cloudinary.com/drcjcovjy/image/upload/v1568943437/misc/front_nzjoba.png)
-
 ## Demo
 
 La aplicación puede verse desde el siguient enlace: [deployed app](https://xenodochial-jennings-fdbaf9.netlify.com/)
